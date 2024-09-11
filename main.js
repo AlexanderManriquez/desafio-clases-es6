@@ -8,4 +8,4 @@ const impuesto = new Impuestos(100000, 20000);
 const cliente = new Cliente("Juan", impuesto);
 
 // Calcular el impuesto
-console.log(cliente.calcularImpuesto());
+console.log(`El impuesto a pagar por ${cliente.nombre} es: ${cliente.calcularImpuesto()}`);
